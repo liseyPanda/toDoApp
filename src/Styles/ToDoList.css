@@ -1,0 +1,72 @@
+.btn-style {
+    background: none;
+    border: none;
+}
+
+.btn-style:hover {
+    background: none;
+}
+
+.btn-style:active {
+    background: none !important;
+}
+
+.btn:focus-visible {
+    background-color: transparent !important;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.checkbox-holder {
+margin-top: auto;
+margin-bottom: auto;
+justify-content: left;
+}
+
+#trash-icon {
+    padding: 0;
+}
+
+.form-check-input:checked {
+    background-color: #FFD43B;
+    border-color: #fbdd70;
+}
+.gen-icon:hover {
+    background: none;
+}
+
+.task-group {
+    padding-bottom: .25em;
+}
+.task-item {
+    border-radius: 1rem;
+}
+.task-name {
+    position: relative;
+}
+
+.task-name:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 3px;
+    border-radius: 1em;
+    background: #FFD43B;
+    animation: strike .5s ease-in forwards;
+}
+
+.task-sub {
+    text-align: left;
+}
+
+@keyframes strike {
+    from {
+        width: 0%;
+    } 
+    to {
+        width: 100%;
+    }
+    
+}
